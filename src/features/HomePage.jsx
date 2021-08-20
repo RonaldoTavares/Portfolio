@@ -2,7 +2,6 @@ import React from "react";
 import HomePageClass from "./HomePageClass";
 import { Grid, Box, TextField, Button } from "@material-ui/core";
 import { withStyles } from "@material-ui/core/styles";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 const CssTextField = withStyles({
   root: {
