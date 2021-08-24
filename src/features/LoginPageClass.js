@@ -4,7 +4,7 @@ import image from '../assets/img/predios.jpg'
 const loginPageStyles = makeStyles(() => ({
     gridContainer: {
         height: '100vh',
-        background: 'url(' + image + ') no-repeat'
+        background: '#000'
       },
     boxlogin: {
         boxShadow: '0 0 3em black',
