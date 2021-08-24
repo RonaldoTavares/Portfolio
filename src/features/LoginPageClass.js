@@ -1,5 +1,4 @@
 import { makeStyles } from '@material-ui/core/styles';
-import image from '../assets/img/predios.jpg'
 
 const loginPageStyles = makeStyles(() => ({
     gridContainer: {
