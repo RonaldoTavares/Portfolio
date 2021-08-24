@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core/styles';
 import image from '../assets/img/predios.jpg'
 
-const homePageStyles = makeStyles(() => ({
+const loginPageStyles = makeStyles(() => ({
     gridContainer: {
         height: '100vh',
         background: 'url(' + image + ') no-repeat'
@@ -17,17 +17,12 @@ const homePageStyles = makeStyles(() => ({
         color: '#FFF',
         fontSize: 20
     },
-    button: {
+    buttonLogin: {
         color: '#FFF',
         fontFamily: "'Poppins', sans-serif",
         textAlign: 'center',
-        fontSize: 12,
-        '&:hover, &:focus': {
-            boxShadow: '0px 0px 10px #608baa',
-            background: '#608baa',
-            color: '#FFF'
-        }
+        fontSize: 12
     }
 }));
 
-export default homePageStyles
+export default loginPageStyles
