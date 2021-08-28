@@ -1,10 +1,6 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 const loginPageStyles = makeStyles(() => ({
-    gridContainer: {
-        height: '100vh',
-        background: '#000'
-      },
     boxlogin: {
         boxShadow: '0 0 3em black',
         background: 'linear-gradient(rgba(145,145,145,0.22),rgba(145,145,145,0.05))',
@@ -21,6 +17,11 @@ const loginPageStyles = makeStyles(() => ({
         fontFamily: "'Poppins', sans-serif",
         textAlign: 'center',
         fontSize: 12
+    },
+    body:{
+        backgroundColor: '#000',
+        width: '100%',
+        height: '100vh'
     }
 }));
 
