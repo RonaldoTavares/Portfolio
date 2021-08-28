@@ -7,7 +7,11 @@ const Header = () => {
   return (
     <header className={`${classes.resetStyle} ${classes.header}`}>
       <a className={`${classes.a}`}>
-        <img src={imgPortfolio} className={classes.img} />
+        <img
+          src={imgPortfolio}
+          className={classes.img}
+          alt={"Logo portfolio"}
+        />
       </a>
       <nav>
         <ul className={`${classes.resetStyle} ${classes.menu}`}>
