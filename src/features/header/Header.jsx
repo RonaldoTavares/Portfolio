@@ -6,13 +6,7 @@ const Header = () => {
   const classes = headerClasses();
   return (
     <header className={`${classes.resetStyle} ${classes.header}`}>
-      <a className={`${classes.a}`}>
-        <img
-          src={imgPortfolio}
-          className={classes.img}
-          alt={"Logo portfolio"}
-        />
-      </a>
+      <img src={imgPortfolio} className={classes.img} alt={"Logo portfolio"} />
       <nav>
         <ul className={`${classes.resetStyle} ${classes.menu}`}>
           <li className={`${classes.li}`}>

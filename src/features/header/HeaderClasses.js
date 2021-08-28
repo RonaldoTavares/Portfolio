@@ -32,7 +32,7 @@ itemHeader: {
 },
 img:{
     color: '#fff',
-    width:'15%',
+    width:'8%',
 }
 
 }));
