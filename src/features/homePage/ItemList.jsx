@@ -24,7 +24,7 @@ const ItemList = (item) => {
       >
         <div className={classes.space} />
         <ArrowForwardIosIcon />
-        <a>{item.item.text}</a>
+        <span>{item.item.text}</span>
       </Button>
     </Box>
   );

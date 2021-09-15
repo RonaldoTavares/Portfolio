@@ -13,22 +13,22 @@ const HomePage = () => {
     <div className={classes.body}>
       <div className={classes.container}>
         <Box mt={6} mr={43} className={classes.boxred}>
-          <a className={classes.textTitle}>
+          <span className={classes.textTitle}>
             Bem <br />
             vindo ao <br />
-          </a>
-          <a className={`${classes.textTitle} ${classes.textColor}`}>
+          </span>
+          <span className={`${classes.textTitle} ${classes.textColor}`}>
             meu Portfólio
-          </a>
+          </span>
         </Box>
       </div>
       <div className={classes.container}>
         <Box>
-          <a className={classes.text}>
+          <span className={classes.text}>
             Aqui você vai encontrar alguns pequenos componentes
             <br /> construídos por mim. Sinta-se a vontade para navegar e <br />
             conhecer um pouco do portfólio.
-          </a>
+          </span>
         </Box>
       </div>
       <div>
