@@ -11,7 +11,11 @@ resetStyle : {
 a: {
     textDecoration: 'none',
     color: '#FFF',
-    fontFamily: "'Poppins', sans-serif"
+    fontFamily: "'Ropa Sans', sans-serif",
+    letterSpacing:'2px',
+    '&:hover, &:focus': {
+        color: '#2a5099'
+      }
 },
 header: {
     display: 'flex',
